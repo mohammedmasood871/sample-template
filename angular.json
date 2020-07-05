@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "workspace"
+    }
+  },
+  "defaultProject": "workspace",
+  "cli": {
+    "analytics": false
+  }
 }
