@@ -13,7 +13,9 @@ import {environment} from '../environments/environment';
 import {AuthService} from './auth/auth.service';
 import { NavbarComponent } from './dashboard/navbar/navbar.component'
 import { SidebarComponent } from './dashboard/sidebar/sidebar.component'
-import { FooterComponent } from './dashboard/footer/footer.component'
+import { FooterComponent } from './dashboard/footer/footer.component';
+import { StarComponent } from './star/star.component';
+import { TableComponent } from './table/table.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FooterComponent } from './dashboard/footer/footer.component'
     DashboardComponent,
     NavbarComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    StarComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
