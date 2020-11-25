@@ -1,7 +1,19 @@
 .header {
-    background: #1abc9c;
-   color: white;
-   position: relative;
-   padding: 2px;
+  background: #ffff;
+  color: black;
+  padding: 0px;
   text-align: right;
+  width: 100%;
+  HEIGHT: 70PX;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -11px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+  border-radius: 72%;
+  margin-top: 15px;
+  margin-right: 12px;
 }

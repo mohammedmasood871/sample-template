@@ -175,7 +175,7 @@ Author URL: http://w3layouts.com
   .w3l-forms-23:before {
     content: "";
     background: rgba(12, 9, 16, 0.57);
-    position: absolute;
+    position: fixed;
     top: 0;
     min-height: 100%;
     left: 0;
